@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: aliyun.hellozjf.com
+    port: 5672
+    username: hellozjf
+    password: Zjf@1234
+spring.cloud.stream.bindings.input.destination: stream-hello
+spring.cloud.stream.bindings.output.destination: stream-hello
+logging:
+  level:
+    com.hellozjf.test.streamhello: debug
